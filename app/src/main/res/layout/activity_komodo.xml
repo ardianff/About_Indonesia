@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PulauKomodoAct">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="false"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pulau Komodo"
+                android:typeface="serif"
+                android:paddingLeft="20dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:id="@+id/teks1"/>
+            <ImageView
+                android:paddingTop="20dp"
+                android:layout_width="300dp"
+                android:layout_height="240dp"
+                android:layout_gravity="center"
+                android:src="@drawable/komodo"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingTop="20dp"
+                android:text="Sesuai dengan namanya, Pulau Komodo merupakan pulau yang juga menjadi habitat hewan langkah di negeri ini. Keberadaannya makin tahun makin menyusut. Tentu mengasyikkan bila kita bisa melihat langsung kehidupan hewan yang dilindungi negara ini."
+                android:fontFamily="sans-serif"
+                android:textStyle="bold"
+                android:textSize="14dp"
+                android:paddingRight="10dp"
+                android:paddingLeft="20dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingTop="10dp"
+                android:text="Bukan hanya di Pulau Komodo, habitat komodo juga ada di pulau yang berdekatan dengannya. Seperti di Pulau Rinca. Di pulau tersebut, wisatawan bisa leluasa melihat dan mengamati pola keseharian komodo. Terdapat tempat yang tepat untuk melihat kawanan komodo."
+                android:fontFamily="sans-serif"
+                android:textStyle="bold"
+                android:textSize="14dp"
+                android:paddingRight="10dp"
+                android:paddingLeft="20dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"/><TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingTop="10dp"
+                android:text="Wisatawan bisa mendaki sebuah bukit, yaitu Bukit Ara (538 mdpl). Di atas gunung itu, kawanan komodo banyak hidup secara liar. Selain komodo, satwa lain yang bisa kita lihat, yaitu rusa liar, banteng dan kuda liar."
+                android:fontFamily="sans-serif"
+                android:textStyle="bold"
+                android:textSize="14dp"
+                android:paddingRight="10dp"
+                android:paddingLeft="20dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+            <LinearLayout
+                android:id="@+id/layoute"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingTop="20dp">
+
+                <Button
+                    android:id="@+id/menu"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@color/colorAccent"
+                    android:text="Menu"
+                    android:textColor="#fff"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <!--</ScrollView>-->
+
+</RelativeLayout>
